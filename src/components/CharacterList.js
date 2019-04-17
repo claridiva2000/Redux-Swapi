@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
+import Character from './Character';
 
-import Character from "./Character";
 
-const CharacterList = props => {
+const CharacterList = props => { 
   return (
     <ul>
       {props.characters.map(character => {
@@ -11,5 +11,7 @@ const CharacterList = props => {
     </ul>
   );
 };
+
+
 
 export default CharacterList;
